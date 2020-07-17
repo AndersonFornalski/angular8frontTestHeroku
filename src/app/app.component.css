@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+}
+
+.min{
+    width: 300px;
+    padding: 10px;
+}
+
+.lbox{
+    visibility: hidden;
+    opacity: 0;
+}
+.lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10,10,10,.7);
+
+    position: fixed;
+}
+
+.box_image{
+    width: 1000px;
+    margin: 150px auto;    
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: arial;    
+}
+
+#prev{
+    left: 5%;
+    top: 45%;    
+}
+
+#next{
+    right: 5%;
+    top: 45%;    
+}
+#close{
+    top: 0;
+    right: 2%;
+}
